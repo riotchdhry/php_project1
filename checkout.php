@@ -64,9 +64,8 @@ form{
     </div>
                         
                         
-                <input type="radio" name="method" <?php if (isset($method) && $method=="Cash On Delivery") echo "checked";?> value="Cash On Delivery">Cash On Delivery
-                <input type="radio" name="method" <?php if (isset($method) && $method=="Debit Card") echo "checked";?> value="Debit Card">Debit Card
-
+                <input type="radio" name="method" <?php if (isset($method) && $method=="Cash On Delivery") echo "checked";?> value="Cash On Delivery">Cash On Delivery<br>
+                <input type="radio" name="method" <?php if (isset($method) && $method=="Debit Card") echo "checked";?> value="Debit Card">Debit Card<br>
                 <input type="radio" name="method" <?php if (isset($method) && $method=="Credit Card") echo "checked";?> value="Credit Card">Credit Card<br>
         
                 <input type="radio" name="method" <?php if (isset($method) && $method=="Master Card") echo "checked";?> value="Master Card">Master Card
